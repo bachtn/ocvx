@@ -11804,6 +11804,7 @@ div#notebook {
 </li>
 <li><p>In this notebook, you will find the code used for the generation of the graphs in the report.</p>
 </li>
+<li><strong>PS: one of our group members (Alaa Bakhti) had his PFE defense Wednesday</strong></li>
 </ul>
 
 </div>
@@ -27935,7 +27936,7 @@ $$</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[29]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Newton resolution : </span>
@@ -27964,7 +27965,7 @@ $r = 2.515$ and $h = 5.029$ which seems logical. Also, the evaluation of the con
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;2 * r = &quot;</span> <span class="p">,</span><span class="mi">2</span> <span class="o">*</span>  <span class="n">sol</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
@@ -27973,6 +27974,26 @@ $r = 2.515$ and $h = 5.029$ which seems logical. Also, the evaluation of the con
 </pre></div>
 
 </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>2 * r =  [ 5.03174604]
+h =  [ 5.02900248]
+the evaluation of the contraint thath should be equal to 0 [ 0.00210852]
+</pre>
+</div>
+</div>
+
 </div>
 </div>
 
@@ -27987,7 +28008,7 @@ $r = 2.515$ and $h = 5.029$ which seems logical. Also, the evaluation of the con
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Defining Jacobian matrix</span>
@@ -28005,7 +28026,7 @@ $r = 2.515$ and $h = 5.029$ which seems logical. Also, the evaluation of the con
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Defining Matrix Stack</span>
@@ -28027,7 +28048,7 @@ $r = 2.515$ and $h = 5.029$ which seems logical. Also, the evaluation of the con
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># we consider that the point satisfy the constraints</span>
@@ -28043,7 +28064,7 @@ $r = 2.515$ and $h = 5.029$ which seems logical. Also, the evaluation of the con
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#We use the general formula</span>
@@ -28061,7 +28082,7 @@ $r = 2.515$ and $h = 5.029$ which seems logical. Also, the evaluation of the con
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[20]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">Newton2</span><span class="p">(</span><span class="n">func</span><span class="p">,</span> <span class="n">x0</span><span class="p">,</span> <span class="n">sat</span> <span class="o">=</span> <span class="kc">False</span><span class="p">):</span>
@@ -28087,20 +28108,7 @@ $r = 2.515$ and $h = 5.029$ which seems logical. Also, the evaluation of the con
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">xl</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="mi">2</span> <span class="o">*</span> <span class="mf">2.51</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[22]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">ones</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
@@ -28114,7 +28122,7 @@ $r = 2.515$ and $h = 5.029$ which seems logical. Also, the evaluation of the con
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[23]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">sol</span> <span class="o">=</span> <span class="n">Newton2</span><span class="p">(</span><span class="n">surface</span><span class="p">,</span> <span class="n">x</span><span class="p">)</span>
@@ -28137,7 +28145,7 @@ $r = 2.515$ and $h = 5.029$ which seems logical. Also, the evaluation of the con
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[24]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;assuming we start from a point that satisfy constraint</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
@@ -28152,10 +28160,34 @@ $r = 2.515$ and $h = 5.029$ which seems logical. Also, the evaluation of the con
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>assuming we start from a point that satisfy constraint
+
+2 * r =  [-0.00019279]
+h =  [ 808.23821357]
+general formula
+2 * r =  [-0.03119488]
+h =  [ 130840.84600266]
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[25]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">phi_vol</span><span class="p">(</span><span class="n">sol2</span><span class="p">)</span>
@@ -28165,16 +28197,56 @@ $r = 2.515$ and $h = 5.029$ which seems logical. Also, the evaluation of the con
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[25]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>array([  1.29715019e-07])</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[26]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">phi_vol</span><span class="p">(</span><span class="n">sol</span><span class="p">)</span>
 </pre></div>
 
 </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[26]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>array([-99.99997641])</pre>
+</div>
+
+</div>
+
 </div>
 </div>
 
